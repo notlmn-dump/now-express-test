@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "now-express-test",
+  "alias": [
+    "now-express-test-lmn.now.sh"
+  ],
+  "builds": [
+    {
+      "src": "**/*.js",
+      "use": "@now/node"
+    }
+  ]
+}
